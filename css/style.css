@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{  
+    margin: 0;
+    padding: 0;    
+}
+.contentstart{
+    /* background-image: linear-gradient(#FFE400,#00AC00,#0C00FF); */
+    background-image: linear-gradient(rgb(233, 165, 165),rgb(246, 239, 107),rgb(168, 243, 165));
+}
+.logo{
+    width: 30%;
+    margin: auto;
+    margin-left: 24px;
+    display: flex;
+    /* align-content: center; */
+    /*align-content property sets the distribution of space between and around content items along a flexbox's cross-axis */
+    /* justify-content: center;controls alignment of all items on the main axis. */
+    align-items: center;/* align-items — controls alignment of all items on the cross axis. */
+}
+.logo img{
+    border-radius: 75px;
+    width: 20%;
+    border: 3px solid white;
+    margin: auto;
+}
+
+.navbar{
+    display: flex; 
+    position: sticky; 
+    top: 0;
+    cursor: pointer;/*changes cursor. there are many more styles to change cursor. */
+    align-items: center;
+    justify-content: center;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 6px 23px;
+    background-color: darkslategrey;
+}
+.navbar ul li{
+    justify-content: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 23px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+.navbar ul li a:hover{
+    text-decoration: none;
+    color: yellow;
+    padding: 23px;
+    /* font-size: large;     */
+}
+
+.rightnav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+    background-color: darkslategrey;
+}
+#search{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.background{
+    background:url(../img/background.jpg);
+    background-size: cover;
+    /* background-blend-mode: darken; */
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.firstSection{
+    height: 100vh;
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 42px;
+}
+.text-small{
+    font-size: 18px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 10px 3px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: center;
+}
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.sectionTag text-big{
+
+}
+.sectionTag text-small{
+    font-family: 'Open Sans', sans-serif;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+.paras{
+    padding: 0 65px;
+}
+.thumbnail img{
+    border-radius: 25px;
+    border: 2px solid black;
+}
+.footer{
+    /* background-image: linear-gradient(rgb(255,255,255),rgb(1,1,1)); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgb(75, 238, 75); */
+    height: 50vh;
+    width: 100vw;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+#name , #email , #number,#submit{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    border-radius: 28px;
+    padding: 5px 49px;
+}
+
